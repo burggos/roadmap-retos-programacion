@@ -79,6 +79,53 @@ print("Negación bit a bit:", ~a)
 print("Desplazamiento a la izquierda:", a << 1)  
 print("Desplazamiento a la derecha:", a >> 1) 
 
+""""Estructuras de control"""
+
+# Condicionales
+x = 10
+
+if x > 5:
+    print("x es mayor que 5")
+elif x == 5:
+    print("x es igual a 5")
+else:
+    print("x es menor que 5")
+
+# Bucle for
+frutas = ["manzana", "banana", "cereza"]
+for fruta in frutas:
+    print(fruta)
+
+# Bucle while
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+
+# Bucle con break
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+# Bucle con continue
+for i in range(10):
+    if i == 5:
+        continue
+    print(i)
+
+# Definición de funciones
+def saludar(nombre):
+    print(f"Hola, {nombre}")
+
+saludar("Gabriel")
+
+# Funciones con valores de retorno
+def suma(a, b):
+    return a + b
+
+resultado = suma(3, 5)
+print(resultado)
 
 
 """"Bueno despues de escribir todo eso no me queda ganas de nada 
